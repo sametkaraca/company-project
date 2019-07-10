@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body p {
+  font-size: 0.8rem;
+}
+
+body h1 {
+  font-size: 1.6rem;
+}
+
+body h2 {
+  font-size: 1rem;
+}
+
+.App {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50vw 50vw;
+      grid-template-columns: 50vw 50vw;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.info {
+  border-color: #2196F3;
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+.Box1, .Box4 {
+  padding: 6rem 3rem 0 3rem;
+}
+
+.Box1 h1, .Box4 h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.Box1 h2, .Box4 h2 {
+  color: dodgerblue;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.Box1 .btn, .Box4 .btn {
+  margin-top: 2rem;
+}
+
+.Box2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (50%)[2];
+      grid-template-columns: repeat(2, 50%);
+  -ms-grid-rows: (50%)[2];
+      grid-template-rows: repeat(2, 50%);
+  min-height: 100vh;
+}
+
+.Box2 p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 2.4rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Box2 .minibox {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.Box2 .a {
+  background-image: url(../src/img/mozaic.jpg);
+}
+
+.Box2 .b {
+  background-image: url(../src/img/family.jpg);
+}
+
+.Box2 .c {
+  background-image: url(../src/img/family.jpg);
+}
+
+.Box2 .d {
+  background-image: url(../src/img/mozaic.jpg);
+  position: relative;
+}
+
+.Box2 .d .layer {
+  background-color: rgba(49, 117, 219, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Box3 {
+  min-height: 100vh;
+  background-image: url(../src/img/office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=App.css.map */
