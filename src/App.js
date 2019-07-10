@@ -16,7 +16,8 @@ function App() {
                 button="Zobacz Wiecej"/>
               <Box2 
               parag="Przeszły dżdże wiosny, zbiegło skwarne lato. I przykre miastu jesienne potopy, Już bruk ziębiącą obleczony szatą, Od stalnej Fryzów nie krzesany stopy. Więzieni słotą w domowej katuszy,Dziś na swobodne gdy wyjrzem powietrze"/>
-              <Box3 />
+              <Box3 
+              parag="Przeszły dżdże wiosny, zbiegło skwarne lato. I przykre miastu jesienne potopy, Już bruk ziębiącą obleczony szatą, Od stalnej Fryzów nie krzesany stopy." />
               <Box4 
                 title="Title"
                 subtitle="Subtitle"

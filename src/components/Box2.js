@@ -8,8 +8,7 @@ function Box2(props){
                     <div class="minibox b"></div>
                     <div class="minibox c"></div>
                     <div class="minibox d">
-                    <div class="layer">
-                    </div>
+                    <div class="layer"></div>
                         <p>{props.parag}</p>
                     </div>
             </div>
