@@ -24,7 +24,7 @@ body{
 
 .App{
     display: grid;
-    grid-template-columns: repeat(2, 50%)
+    grid-template-columns: 100%;
 }
 
 .btn {
@@ -53,7 +53,7 @@ body{
 //Boxes
 
 .Box1, .Box4{
-    padding: 6rem 3rem 0 3rem;
+    padding: 6rem 3rem 8rem 3rem;
 
     h1{
         text-transform: uppercase;
@@ -129,7 +129,7 @@ body{
         
         p{
             line-height: 3rem;
-            font-size: 2rem;
+            font-size: 1.2rem;
             text-transform: uppercase;
             position: relative;
             top: 50%;
@@ -148,3 +148,33 @@ body{
             height: 100%;
         }
 }
+
+//Breakpoints
+
+@media only screen and (min-width: 768px) {
+
+    .App{
+        grid-template-columns: repeat(2, 50%)
+    }
+    .Box1, .Box4{
+        padding-right: 6rem;
+        padding-left: 6rem;
+    }
+
+    .Box2{
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 50%);
+        min-height: 100vh;
+    }
+} 
+
+@media only screen and (min-width: 1200px) {
+    .Box3{
+        width: 50vw;
+        min-height: 100vh;
+        p{
+            font-size: 2rem;
+        }
+    }
+}
+
